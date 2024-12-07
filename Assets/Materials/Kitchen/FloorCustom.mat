@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5852093199341960950
+--- !u!114 &-4117238452351999852
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TableTop
-  m_Shader: {fileID: -6465566751694194690, guid: afc967c5416346619936ae3bcd5a7482, type: 3}
+  m_Name: FloorCustom
+  m_Shader: {fileID: -6465566751694194690, guid: 13787a28b680a77a189a5e4dab58c0fe, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -112,6 +112,7 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
+    - _NumberStones: 10
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
@@ -126,8 +127,12 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.6226415, g: 0.3784, b: 0.20852618, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LineColor: {r: 0.17924526, g: 0.10882547, b: 0.01944643, a: 1}
+    - _NumberOfStones: {r: 0.25, g: 0.1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _StoneColorA: {r: 0.43396226, g: 0.43396226, b: 0.43396226, a: 0}
+    - _StoneColorB: {r: 0.13207546, g: 0.12771446, b: 0.12771446, a: 0}
   m_BuildTextureStacks: []
